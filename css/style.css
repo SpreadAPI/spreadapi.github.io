@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 /*http://cssdeck.com/labs/beautiful-flat-buttons*/
 /*http://flatuicolors.com/*/
 /*http://psd.fanextra.com/articles/flat-design-trend/*/
@@ -7,11 +7,18 @@
 /* Global */
 
 body {
-	font-family: "Lato";
-	font-weight: 400;
 	font-size: 1em;
-	color: #ffffff;
+	color: green;
 	background-color:#ffffff;
+}
+body, p, a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	
 }
 img {
 	max-width: 100%;
@@ -79,9 +86,6 @@ a:visited {
 	font-weight:400;
 }
 
-
-
-
 /* General Slides */ 
 
 .slide{
@@ -91,8 +95,6 @@ a:visited {
 	position: relative;
 	padding:100px 0;
 }
-
-
 
 /* Slide 1 */ 
 
@@ -177,7 +179,7 @@ a:visited {
 	font-size: 36px;
 	letter-spacing: 1px;
 	line-height: 150%;
-	color:#8a8683;
+	color:white;
 	font-family: "Lato";
 	font-weight: 300;
 }

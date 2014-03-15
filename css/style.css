@@ -69,6 +69,17 @@ a:visited {
 	padding-right: 5%;
 }
 
+.form-container .skinny-btn {
+	float: left;
+}
+.form-container .form-control {
+	font-size: 22px;
+	height: 60px;
+	width: 50%;
+	max-width: 300px;
+	float: right;
+	
+}
 /* Navigation */
 /*
 .menu {

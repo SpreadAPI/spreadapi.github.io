@@ -157,6 +157,7 @@ a:visited {
 }
 #slide2 h1, #slide2 h2 {
 	color: #434a54;
+	text-shadow: none;
 }
 #slide3{
 	/*background-color:#ecf0f1;*/

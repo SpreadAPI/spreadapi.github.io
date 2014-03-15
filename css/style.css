@@ -68,7 +68,9 @@ a:visited {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-
+.form-container {
+	margin-top: 75px;
+}
 .form-container .skinny-btn {
 	float: left;
 }
@@ -78,7 +80,6 @@ a:visited {
 	width: 50%;
 	max-width: 300px;
 	float: right;
-	
 }
 /* Navigation */
 /*

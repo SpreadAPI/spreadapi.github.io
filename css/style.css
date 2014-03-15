@@ -48,7 +48,10 @@ a:visited {
 .navbar-custom .nav li a {
 	color: #ffffff;
 }
+.topic {
+	background: url(../img/wild_flowers.png) repeat;
 
+}
 /* Images */
 
 #made_in_nyc {
@@ -140,44 +143,12 @@ a:visited {
 #slide1 {
 	text-align: center;
 }
-
-
-
-/* Slide 2 */ 
-
 #slide2{
-	/*color:#ffffff;*/
-	/* top, transparent red, faked with gradient */ 
-	/*background: url(../images/skulls.png) no-repeat center center fixed;
-	background-repeat:repeat;*/
-	
-		
-	background-color:#d35400;
-	/*background-color:#27ae60;*/
-	/*
-	TRY DIFFERENT GREENS:
-	#27ae60;
-	#2ecc71;
-	#16a085;
-	 */
-	
+	background-color: rgb(241, 242, 246);	
 }
-#slide2 h1 {
-	font-size: 3.8em;
-	letter-spacing: 1px;
-	color:#ffffff;
-	font-weight: 300;
-	font-family: "Lato";
+#slide2 h1, #slide2 h2 {
+	color: #434a54;
 }
-#slide2 h2 {
-	font-size: 24px;
-	line-height: 150%;
-	color: #ffffff;
-	padding-bottom:20px;
-	font-weight: 300;
-	font-family: "Lato";
-}
-
 
 
 

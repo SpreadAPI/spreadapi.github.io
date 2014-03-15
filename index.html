@@ -1,44 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Spread</title>
-    <!-- Sets initial viewport load and disables zooming  -->
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- site css -->
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen"> 
-    <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/site.min.css"> <!-- site.min.css -->
+<head>
+  <meta charset="utf-8">
+  <title>Spread</title>
+  <!-- Sets initial viewport load and disables zooming  -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- site css -->
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen"> 
+  <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/site.min.css"> <!-- site.min.css -->
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <script type="text/javascript" src="js/site.min.js"></script>
-  </head>
-    <body style="background-color: #f1f2f6;">
-      <div class="menu">
-    <div class="container clearfix">
+  <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
+   --><!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="js/site.min.js"></script>
+</head>
+<body style="background-color: #f1f2f6;">
 
-      <!-- <div id="logo" class="grid_3">
-        <img src="images/logo.png">
-      </div> -->
-
-      <div id="nav" class="grid_12 omega">
-        <ul class="navigation">
-          <li data-slide="1">Spread</li>
-          <li data-slide="2">About</li>
-          <!-- <li data-slide="3">Grid</li> -->
-          <li data-slide="4">Get in touch</li>
-        </ul>
+  <div class="docs-header">
+    <!--nav-->
+    <nav class="navbar navbar-default navbar-custom" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Spread</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="getting-started.html">Getting Started</a></li>
+            <li><a class="nav-link current" href="documentation.html">Documentation</a></li>
+          </ul>
+        </div>
       </div>
-
+    </nav>
+    <!--header-->
+    <div class="topic">
+      <div class="container">
+        <h3>Documentation</h3>
+        <h4>The complete style of the Bootflat Framework</h4>
+      </div>
+      <div class="topic__infos">
+        <div class="container">
+          Bootflat offers over a dozen reusable components, which can be combined with each other. 
+        </div>
+      </div>
     </div>
   </div>
-
 
   <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
     <div class="container clearfix">
@@ -51,11 +67,11 @@
         <!-- <div id="main_button"><input type="submit" value="Request a demo" class="nephritis-flat-button"></div> -->
         <button type="button" class="btn btn-success btn-block">Success</button>
         <div class="btn-group-vertical">
-                  <button type="button" class="btn btn"><i class="glyphicon glyphicon-home"></i></button>
-                  <button type="button" class="btn btn"><i class="glyphicon glyphicon-user"></i></button>
-                  <button type="button" class="btn btn"><i class="glyphicon glyphicon-comment"></i></button>
-                  <button type="button" class="btn btn"><i class="glyphicon glyphicon-cog"></i></button>
-                </div>
+          <button type="button" class="btn btn"><i class="glyphicon glyphicon-home"></i></button>
+          <button type="button" class="btn btn"><i class="glyphicon glyphicon-user"></i></button>
+          <button type="button" class="btn btn"><i class="glyphicon glyphicon-comment"></i></button>
+          <button type="button" class="btn btn"><i class="glyphicon glyphicon-cog"></i></button>
+        </div>
 
       </div>
     </div>
@@ -97,19 +113,56 @@
 
 
   <div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
-    <div class="container clearfix">
-
-      <div id="content" class="grid_12">
-        <p><input type="submit" value="Get in touch" class="pumpkin-flat-button"></p>
-        <p><img id="made_in_nyc" src="img/made_in_nyc.png"></a></p>
-      </div>
-
-    </div>
   </div>
 
-    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-    <script type="text/javascript" src="js/waypoints.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-  </body>
+  <!--     <div class="container clearfix">
+
+    <div id="content" class="grid_12">
+      <p><input type="submit" value="Get in touch" class="pumpkin-flat-button"></p>
+      <p><img id="made_in_nyc" src="img/made_in_nyc.png"></a></p>
+    </div>
+
+  </div> -->
+
+
+  <div class="footer">
+      <div class="container">
+        <div class="clearfix">
+          <div class="footer-logo"><a href="#">Bootflat</a></div>
+          <dl class="footer-nav">
+            <dt class="nav-title">PORTFOLIO</dt>
+            <dd class="nav-item"><a href="#">Web Design</a></dd>
+            <dd class="nav-item"><a href="#">Branding &amp; Identity</a></dd>
+            <dd class="nav-item"><a href="#">Mobile Design</a></dd>
+            <dd class="nav-item"><a href="#">Print</a></dd>
+            <dd class="nav-item"><a href="#">User Interface</a></dd>
+          </dl>
+          <dl class="footer-nav">
+            <dt class="nav-title">ABOUT</dt>
+            <dd class="nav-item"><a href="#">The Company</a></dd>
+            <dd class="nav-item"><a href="#">History</a></dd>
+            <dd class="nav-item"><a href="#">Vision</a></dd>
+          </dl>
+          <dl class="footer-nav">
+            <dt class="nav-title">GALLERY</dt>
+            <dd class="nav-item"><a href="#">Flickr</a></dd>
+            <dd class="nav-item"><a href="#">Picasa</a></dd>
+            <dd class="nav-item"><a href="#">iStockPhoto</a></dd>
+            <dd class="nav-item"><a href="#">PhotoDune</a></dd>
+          </dl>
+          <dl class="footer-nav">
+            <dt class="nav-title">CONTACT</dt>
+            <dd class="nav-item"><a href="#">Basic Info</a></dd>
+            <dd class="nav-item"><a href="#">Map</a></dd>
+            <dd class="nav-item"><a href="#">Conctact Form</a></dd>
+          </dl>
+        </div>
+        <div class="footer-copyright text-center">Copyright © 2014 Flathemes.All rights reserved.</div>
+      </div>
+
+  <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+  <script type="text/javascript" src="js/waypoints.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
 </html>

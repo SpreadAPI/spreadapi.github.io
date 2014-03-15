@@ -215,9 +215,10 @@ a:hover{color:#454545;}
 .green-sea-flat-button {
   position: relative;
   vertical-align: top;
-  width: 100%;
+  width: auto;
   height: 60px;
-  padding: 0;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 22px;
   color: white;
   text-align: center;

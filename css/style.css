@@ -51,6 +51,12 @@ a:visited {
 .nav-item p{
 	color: #aab2bd;
 }
+.navbar-brand {
+	font-weight: normal;
+	color: white;
+	margin-top: 10px;	
+	margin-bottom: -10px;
+}
 /* Images */
 
 #made_in_nyc {

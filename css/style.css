@@ -50,7 +50,10 @@ a:visited {
 }
 .topic {
 	background: url(../img/wild_flowers.png) repeat;
+}
 
+.nav-item p{
+	color: #aab2bd;
 }
 /* Images */
 

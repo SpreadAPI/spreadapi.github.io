@@ -1,0 +1,66 @@
+{
+	"crunchbase" : {
+		"request" : {
+			"url" : "http://api.crunchbase.com/v/1/search.js",
+			"api_key" : "ue9xnwaj5j7bv2vahqtk53df",
+			"params" : {
+				"query" :  "search"
+			}
+		},
+		"response" : {	
+			"results[0].name" : "name",
+			"results[0].description" : "description",
+			"results[0].homepage_url": "url",
+			"results[0].offices[0].address1" : "address"
+		},
+		"tags" : [
+			"finance",
+			"startup",
+			"venture capital",
+			"people",
+			"companies"
+		]
+	},
+	"company" : {
+		"request" : {
+			"url" : "http://api.crunchbase.com/v/1/company/{{company name}}.js",
+			"api_key" : "ue9xnwaj5j7bv2vahqtk53df",
+			"params" : {
+				"company name" :  "company name"
+			}
+		},
+		"response" : {	
+			"name" : "name",
+			"description" : "description",
+			"homepage_url": "url",
+			"offices[0].address1" : "address",
+			"number_of_employees" : "number of employees",
+			"crunchbase_url" : "crunchbase url",
+			"twitter_username" : "twitter username",
+			"founded_year": "year founded"
+		},
+		"tags" : [
+			"finance",
+			"startup",
+			"venture capital",
+			"people",
+			"companies"
+		]
+	},
+	"yelp" : {
+		"request" : {
+			"params" : {
+			}
+		},
+		"response" : {},
+		"tags" : []	
+	},
+	"dropbox" : {
+		"request" : {
+			"params" : {
+			}
+		},
+		"response" : {},
+		"tags" : []	
+	}	
+}

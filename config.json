@@ -56,18 +56,18 @@
 	"rotten tomatoes" : {
 		"request" : {
 			"url" : "http://api.rottentomatoes.com/api/public/v1.0/movies.json",
-			"apikey" : "2kat82rf4g5fuaz43scd4vr7",
+			"api_key" : "2kat82rf4g5fuaz43scd4vr7",
 			"params" : {
 				"q" :  "search"
 			}
 		},
 		"response" : {	
-			"results[0].title" : "title",
-			"results[0].year" : "year",
-			"results[0].mpaa_rating": "rating",
-			"results[0].runtime": "runtime",
-			"results[0].critics_consensus": "critics consensus",
-			"results[0].synopsis": "synopsis",
+			"movies[0].title" : "title",
+			"movies[0].year" : "year",
+			"movies[0].mpaa_rating": "rating",
+			"movies[0].runtime": "runtime",
+			"movies[0].critics_consensus": "critics consensus",
+			"movies[0].synopsis": "synopsis",
 			"link_template" : "source url"
 		},
 		"tags" : [

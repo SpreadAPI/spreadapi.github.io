@@ -37,7 +37,13 @@
 			"number_of_employees" : "number of employees",
 			"crunchbase_url" : "crunchbase url",
 			"twitter_username" : "twitter username",
-			"founded_year": "year founded"
+			"founded_year": "year founded",
+			"relationships" : [{
+				"id" : "people",
+				"person.first_name" : "first name",
+				"person.last_name" : "last name",
+				"title" : "title"
+			}]
 		},
 		"tags" : [
 			"finance",

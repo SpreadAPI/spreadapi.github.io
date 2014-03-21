@@ -76,6 +76,45 @@
 			"films"
 		]
 	},
+	"sunlight foundation" :{
+		"request" : {
+			"url" : "congress.api.sunlightfoundation.com/legislators",
+			"apikey" : "356d66c74a74458295c7173ab534917d",
+			"params" : {
+				"query" 	:  "search",
+				"chamber" 	: "chamber",
+				"state"		: "state"
+			}
+		},
+		"response" : {	
+			"results[0].birthday" : "birthday",
+			"results[0].chamber" : "chamber",
+			"results[0].contact_form": "contact form",
+			"results[0].facebook_id": "facebook id",
+			"results[0].fax": "fax number",
+			"results[0].first_name": "first name",
+			"results[0].gender": "gender",
+			"results[0].first_name": "first name",
+			"results[0].last_name": "last name",
+			"results[0].office": "office address",
+			"results[0].party": "party",
+			"results[0].phone": "phone number",
+			"results[0].state": "state",
+			"results[0].state": "state",
+			"results[0].term_end": "end of term",
+			"results[0].term_start": "beginning of term",
+			"results[0].title": "title",
+			"results[0].twitter_id": "twitter id",
+			"results[0].website": "website",
+			"results[0].youtube_id": "youtube id"
+		},
+		"tags" : [
+			"politics",
+			"sunlight foundation",
+			"congress",
+			"government"
+		]
+	},
 	"yelp" : {
 		"request" : {
 			"params" : {

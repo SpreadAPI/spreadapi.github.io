@@ -67,8 +67,7 @@
 			"movies[0].mpaa_rating": "rating",
 			"movies[0].runtime": "runtime",
 			"movies[0].critics_consensus": "critics consensus",
-			"movies[0].synopsis": "synopsis",
-			"link_template" : "source url"
+			"movies[0].synopsis": "synopsis"
 		},
 		"tags" : [
 			"movies",

@@ -1,5 +1,7 @@
-jQuery(document).ready(function ($) {
+var database = new Firebase('https://spreadapi.firebaseio.com/');
+var users = database.child('users');
 
+jQuery(document).ready(function ($) {
 
     $(window).stellar();
 
@@ -50,6 +52,17 @@ jQuery(document).ready(function ($) {
         goToByScroll(dataslide);
 
     });
-
-
 });
+
+function signup () {
+    var email = $("#email").val();
+    console.log(email);
+    users.push(email);
+}
+
+users.on('child_added', function(newUser) {
+  //var userId = newUser.child('user_id').val();
+  console.log(userId);
+  alert("Thank you for signing up. We will keep you updated with Spread.");
+});
+

@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a class="nav-link current" href="#">Home</a></li>
-            <li><a class="nav-link" href="#">How it works</a></li>
+            <li><a class="nav-link" href="#howitworks">How it works</a></li>
           </ul>
         </div>
       </div>
@@ -53,10 +53,10 @@
         
       <div class="row form-container">
         <div class="col-md-6">
-          <input type="text" class="form-control" placeholder="doge@suchspread.wow">
+          <input type="text" class="form-control" placeholder="doge@suchspread.wow" id="email">
         </div>
         <div class="col-md-6">
-          <input type="submit" value="Sign up today" class="pumpkin-flat-button skinny-btn">
+          <input type="submit" value="Sign up today" class="pumpkin-flat-button skinny-btn" onclick="signup()">
         </div>
       </div>
     </div>
@@ -127,6 +127,7 @@
   <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
   <script type="text/javascript" src="js/waypoints.min.js"></script>
   <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>
   <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>

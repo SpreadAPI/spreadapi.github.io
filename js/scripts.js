@@ -61,8 +61,6 @@ function signup () {
 }
 
 users.on('child_added', function(newUser) {
-  //var userId = newUser.child('user_id').val();
-  //console.log(userId);
   alert("Thank you for signing up. We will keep you updated with Spread.");
 });
 

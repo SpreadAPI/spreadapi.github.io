@@ -60,7 +60,7 @@ function signup () {
     users.push(email);
 }
 
-users.on('child_added', function(newUser) {
-  alert("Thank you for signing up. We will keep you updated with Spread.");
-});
+// users.on('child_added', function(newUser) {
+//   alert("Thank you for signing up. We will keep you updated with Spread.");
+// });
 

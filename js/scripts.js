@@ -56,11 +56,6 @@ jQuery(document).ready(function ($) {
 
 function signup () {
     var email = $("#email").val();
-    console.log(email);
+    // console.log(email);
     users.push(email);
 }
-
-// users.on('child_added', function(newUser) {
-//   alert("Thank you for signing up. We will keep you updated with Spread.");
-// });
-

@@ -56,6 +56,11 @@ jQuery(document).ready(function ($) {
 
 function signup () {
     var email = $("#email").val();
-    // console.log(email);
+    console.log(email);
     users.push(email);
+    $("#email").empty();
+    alert("Thank you for signing up. We will keep you updated with Spread.");
+
 }
+
+
